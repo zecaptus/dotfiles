@@ -1,0 +1,5 @@
+theme = tokyonight
+background-opacity = 0.9
+background-blur-radius = 10
+macos-titlebar-style = hidden
+keybind = global:alt+space=toggle_quick_terminal
