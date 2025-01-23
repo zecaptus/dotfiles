@@ -1,0 +1,27 @@
+{
+  "editor.formatOnSave": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "editor.fontFamily": "'Operator Mono Lig' ,Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontSize": 14,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.smoothScrolling": true,
+  "editor.cursorStyle": "block",
+  "editor.cursorSurroundingLines": 15,
+  "editor.cursorBlinking": "phase",
+  "editor.fontLigatures": true,
+  "editor.renderWhitespace": "trailing",
+  "editor.linkedEditing": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "continue.enableTabAutocomplete": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.colorTheme": "Operator Mono Dark Modern Theme",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.tree.indent": 15,
+  "workbench.tree.renderIndentGuides": "always",
+  "workbench.editor.enablePreview": false
+}
