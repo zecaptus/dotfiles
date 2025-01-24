@@ -15,9 +15,11 @@ extensions=(
   "oderwat.indent-rainbow"
   "ms-vsliveshare.vsliveshare"
   "pkief.material-icon-theme"
-  "valiantsin.operatormonodarktheme"
   "esbenp.prettier-vscode"
   "bradlc.vscode-tailwindcss"
+  "drcika.apc-extension"
+  "enkia.tokyo-night"
+  "yoavbls.pretty-ts-errors"
 )
 
 for extension in "${extensions[@]}"

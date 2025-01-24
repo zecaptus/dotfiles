@@ -19,9 +19,65 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "javascript.updateImportsOnFileMove.enabled": "always",
-  "workbench.colorTheme": "Operator Mono Dark Modern Theme",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.tree.indent": 15,
   "workbench.tree.renderIndentGuides": "always",
-  "workbench.editor.enablePreview": false
+  "workbench.editor.enablePreview": false,
+  "apc.electron": {
+    "frame": false,
+    "titleBarStyle": "hidden"
+  },
+  "window.titleBarStyle": "native",
+  "window.customTitleBarVisibility": "never",
+  "workbench.colorCustomizations": {
+    "[Tokyo Night]": {
+      "editorCodeLens.foreground": "#7982a9",
+      "window.activeBorder": "#ff0000",
+      "window.inactiveBorder": "#0000ff"
+    }
+  },
+  "editor.tokenColorCustomizations": {
+    "[Tokyo Night]": {
+      "textMateRules": [
+        {
+          "scope": [
+            "comment",
+            "entity.name.type.class",
+            "keyword",
+            "constant",
+            "storage.modifier",
+            "storage.type.class.js",
+            "storage.type.function.js",
+            "storage.type.js",
+            "keyword.control",
+            "keyword.operator",
+            "keyword.operator.new",
+            "keyword.operator.expression",
+            "keyword.operator.cast",
+            "keyword.operator.sizeof",
+            "keyword.operator.logical.python",
+            "variable.language"
+          ],
+          "settings": {
+            "fontStyle": "italic"
+          }
+        },
+        {
+          "scope": [
+            "invalid",
+            "keyword.operator",
+            "constant.numeric.css",
+            "keyword.other.unit.px.css",
+            "constant.numeric.decimal.js",
+            "constant.numeric.json",
+            "entity.name.type.class.js"
+          ],
+          "settings": {
+            "fontStyle": ""
+          }
+        }
+      ]
+    }
+  },
+  "workbench.colorTheme": "Tokyo Night"
 }
